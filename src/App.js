@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import RouteComponent from "./router/RouteComponent";
 
 function App() {
-  return (
-      <h1 className="text-3xl font-bold underline">
-        Dashboard Home
-      </h1>
-  );
+  return <RouteComponent />;
 }
 
 export default App;
